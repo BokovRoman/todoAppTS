@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root {
+  --accent-color: #ff751d;
+  --text-color-black: #2a2a2a;
+  --text-color-gray: #4b4c52;
+}
+
+html {
+  overflow: scroll;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color-black);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+iframe {
+  display: none;
+}
+
+.swiper {
+  left: 125px;
+  overflow: visible;
+}
